@@ -1,0 +1,74 @@
+
+body {
+  background-color: gray;
+  transition-delay: 1s;
+  transition: 1s;
+}
+.box {
+  color: gray;
+  position: relative;
+  /*   border-style: solid; */
+  text-align: center;
+  background-color: white;
+  width: 600px;
+  margin: auto;
+  margin-top: 75px;
+  border-radius: 3px;
+}
+.content {
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+#quoteBtn {
+  outline: none;
+  border: none;
+  background-color: gray; /*set to same color*/
+  position: relative;
+  left: 100px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 2px;
+  padding: 10px 15px;
+}
+#twitterBtn {
+  outline: none;
+  border: none;
+  background-color: gray; /*set to same color*/
+  position: relative;
+  right: 100px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 2px;
+}
+#tumblrBtn {
+  outline: none;
+  border: none;
+  background-color: gray; /*set to same color*/
+  position: relative;
+  right: 100px;
+  margin-bottom: 10px;
+  color: white;
+  border-radius: 2px;
+}
+.fa-twitter {
+  padding: 10px 10px;
+}
+.fa-tumblr {
+  padding: 10px 10px;
+}
+#text {
+  font-size: 150%;
+  transition: 1s;
+}
+#author {
+  font-size: 115%;
+  position: relative;
+  left: 145px;
+}
+button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
